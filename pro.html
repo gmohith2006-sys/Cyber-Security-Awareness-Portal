@@ -1,0 +1,103 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project Presentation</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+
+       
+        .slide {
+            width: 100%;
+            height: 100vh;
+            padding: 40px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+       
+        .logo {
+            max-width: 180px;
+            margin-bottom: 20px;
+        }
+
+       
+        h1 {
+            font-size: 36px;
+            color: #003366;
+            margin: 10px 0;
+        }
+
+        h2, h3, h4 {
+            color: #000;
+            margin: 5px 0;
+        }
+
+
+        .next-btn {
+            margin-top: 40px;
+            padding: 12px 25px;
+            background: #003366;
+            color: white;
+            border: none;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .next-btn:hover {
+            background: #0055aa;
+        }
+    </style>
+
+</head>
+<body>
+
+    
+    <div class="slide" id="slide1">
+        <img src="pres.jpg" class="logo" alt="Presidency University Logo" >
+
+        <h1>School of Computer Science Engineering & Information Science</h1>
+
+        <h2>A Report on</h2>
+        <h2><b>Mini Project</b></h2>
+
+        <h3>Titled: <u>Cybersecurity Awareness Portal</u></h3>
+
+        <br>
+
+        <h4><b>Course Title:</b> Web Technologies</h4>
+        <h4><b>Course Code:</b> CSE2258</h4>
+        <h4><b>Date of Submission:</b> 22/11/2025</h4>
+
+        <br>
+
+        <h3><b>Submitted By:</b></h3>
+        <h4>Name:G. Mohit  Roll No : 20241CSD0112</h4>
+<h4>Name:Murali vijay  Roll No : 20241CSD0111</h4>
+<h4>Name:Chinmay  Roll No : 20241CSD0068</h4>
+<h4>Name:Satish Anandi Roll No : 20241CSD0105</h4>
+        
+
+        <button class="next-btn" onclick="nextSlide()">Next ➜</button>
+    </div>
+
+    <script>
+        function nextSlide() {
+            window.location.href = "slide2.html";   // next slide will load
+        }
+    </script>
+
+</body>
+</html>

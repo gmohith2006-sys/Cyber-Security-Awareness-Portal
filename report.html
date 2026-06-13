@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Cyber Fraud</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <h2 class="logo">CYBERSECURE</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="attacks.html">Attacks</a></li>
+            <li><a href="safety.html">Safety Tips</a></li>
+            <li><a class="active" href="report.html">Report Fraud</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+    </nav>
+
+    <section class="content">
+        <h1 class="title">Report Cyber Fraud</h1>
+
+        <form class="report-form">
+
+            <label>Your Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Your Email</label>
+            <input type="email" placeholder="Enter your email" required>
+
+            <label>Type of Cyber Issue</label>
+            <select required>
+                <option>Phishing</option>
+                <option>Hacking</option>
+                <option>Fraud Transaction</option>
+                <option>Social Media Abuse</option>
+                <option>Malware Attack</option>
+            </select>
+
+            <label>Description of the Incident</label>
+            <textarea rows="5" placeholder="Explain the incident..." required></textarea>
+
+            <button type="submit" class="btn">Submit Report</button>
+
+        </form>
+
+    </section>
+
+</body>
+</html>
